@@ -1,7 +1,6 @@
 # include<stdio.h>
 # include<stdlib.h>
 
-
 int maxDivide(int a, int b)
 {
   while (a%b == 0)
@@ -39,6 +38,7 @@ int main()
     return 0;
 }
 
+/*---------------------------------*/
 Output:
 150 th ugly Number is 1536
 
