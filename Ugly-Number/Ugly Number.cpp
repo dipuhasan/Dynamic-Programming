@@ -1,14 +1,14 @@
 // http://www.geeksforgeeks.org/ugly-numbers/
 # include<stdio.h>
 # include<stdlib.h>
-
+/*This function divides a by greatest divisible power of b*/
 int maxDivide(int a, int b)
 {
   while (a%b == 0)
    a = a/b;
   return a;
 }
-
+/* Function to check if a number is ugly or not */
 int isUgly(int no)
 {
   no = maxDivide(no, 2);
@@ -17,7 +17,7 @@ int isUgly(int no)
 
   return (no == 1)? 1 : 0;
 }
-
+/* Function to get the nth ugly number*/
 int getNthUglyNo(int n)
 {
   int i = 1;
