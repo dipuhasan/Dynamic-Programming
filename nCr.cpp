@@ -1,3 +1,7 @@
+//http://www.shafaetsplanet.com/planetcoding/?p=1072
+#include<bits/stdc++.h>
+using namespace std;
+
 i64 dp[70][70];
 i64 nCr(int n,int r)
 {
@@ -20,3 +24,5 @@ int main()
           printf("%d\n",nCr(20,2));
  
 }
+
+Output: 190
