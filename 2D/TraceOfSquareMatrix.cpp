@@ -12,21 +12,21 @@ int main()
         exit(0);
     }
     cout<<"Enter the elements of the matrix : \n";
-    for(i=0;i<m;i++){
-        for(j=0;j<n;j++){
+    for(i = 0; i<m; i++){
+        for(j = 0; j<n; j++){
             cin>>mat[i][j];
         }
     }
     cout<<"The matrix is : \n";
-    for(i=0;i<m;i++){
-        for(j=0;j<n;j++){
+    for(i = 0; i<m; i++){
+        for(j = 0; j<n; j++){
             cout<<mat[i][j];
             cout<<"\t";
         }
         cout<<endl;
     }
-    for(i=0;i<m;i++){
-        for(j=0;j<n;j++){
+    for(i = 0; i<m; i++){
+        for(j = 0; j<n; j++){
             if(i==j){
                 tr = tr + mat[i][j];
             }
@@ -34,4 +34,14 @@ int main()
     }
     cout<<"The trace is "<<tr;
 }
+Input: 
+3 3
+1 2 3
+4 5 6
+7 8 9
 
+Output: 
+1 2 3
+4 5 6
+7 8 9
+Digonal sum = 15
